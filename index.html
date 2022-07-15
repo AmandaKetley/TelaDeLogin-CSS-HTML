@@ -16,15 +16,18 @@
         <div class="right-login">
             <div class="card-login">
                 <h1>Login</h1>
+                <script src="script.js"></script>
+                <form class="form-login" onsubmit="logar()">
                 <div class="textfield">
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário">
+                    <input type="text" class="lgn-nome" id="usuario" name="usuario" placeholder="Usuário">
                 </div>
                 <div class="textfield">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="password" class="lgn-senha" id="senha" name="senha" placeholder="Senha">
                 </div>
-                <button class="btn-login">Login</button>
+                <button  type= "submit" class="btn-login">Login</button>
+            </form>
                 <a href="cadastro.html" class="link-cadastro">Cadastre-se</a>
             </div>
         </div>

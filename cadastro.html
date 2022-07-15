@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title>Cadastro</title>
 </head>
 <body>
@@ -16,23 +17,26 @@
         <div class="right-login">
                 <div class="card-login">
                 <h1>Cadastro</h1>
+                <script src="script.js"></script>
+                <form class="form-cadastro" onsubmit="cadastrar()">
                 <div class="textfield">
                     <label for="Nome">Nome</label>
-                    <input type="text" name="Nome" placeholder="Nome">
+                    <input type="text" id="nome" name="Nome" placeholder="Nome">
                 </div>
                 <div class="textfield">
                     <label for="email">Email</label>
-                    <input type="text" name="email" placeholder="Email">
+                    <input type="text" id="email" name="email" placeholder="Email">
                 </div>
                 <div class="textfield">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="password" id="senha" name="senha" placeholder="Senha">
                 </div>
                 <div class="textfield">
                     <label for="senha">Confirme sua senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="password" id="senha2" name="senha2" placeholder="Senha">
                 </div>
-                <button class="btn-login">Cadastre-se</button>
+                <button type= "submit" class="btn-login">Cadastre-se</button>
+            </form>
                 <a href="index.html" class="link-cadastro">Login</a>
             </div>
         </div>

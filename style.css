@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-body{
+body {
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
 }
@@ -10,6 +10,9 @@ body * {
     box-sizing: border-box;
 }
 
+.main-login > h1 {
+    color: #77ffc0;
+}
 .main-login{
     width: 100vw;
     height: 100vh;
@@ -45,7 +48,7 @@ body * {
     align-items: center;
 }
 
-.card-login{
+.card-login {
     width: 60%;
     display: flex;
     justify-content: center;
@@ -55,6 +58,10 @@ body * {
     background: #2f2841;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
+}
+
+.form-login{
+    
 }
 
 .card-login > h1{
@@ -98,7 +105,8 @@ body * {
 .btn-login{
     width: 100%;
     padding: 16px 0px;
-    margin: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border: none;
     border-radius: 8px;
     outline: none;
@@ -113,6 +121,7 @@ body * {
 .link-cadastro{
     color: #0f8;
 }
+
 
 @media only screen and (max-width: 950px){
     .card-login{
